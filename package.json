@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +19,12 @@
   },
   "homepage": "https://github.com/kkraj16/react-js-country-lisitng#readme",
   "dependencies": {
-    "parcel": "^2.13.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
+    "parcel": "^2.8.3",
     "process": "^0.11.10"
   }
 }
